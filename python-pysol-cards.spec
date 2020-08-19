@@ -1,3 +1,4 @@
+%global __requires_exclude testtools
 %global pypi_name pysol-cards
 
 Name:           python-%{pypi_name}
@@ -18,7 +19,7 @@ BuildRequires:  python3dist(pbr) >= 2.0
 BuildRequires:  python3dist(python-subunit) >= 0.0.18
 BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(six)
-BuildRequires:  python3dist(testtools) >= 1.4.0
+#BuildRequires:  python3dist(testtools) >= 1.4.0
 BuildRequires:  python3dist(sphinx)
 %{?python_provide:%python_provide python3-%{pypi_name}}
 
