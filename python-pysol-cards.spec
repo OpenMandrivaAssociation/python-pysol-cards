@@ -2,8 +2,8 @@
 %global pypi_name pysol-cards
 
 Name:           python-%{pypi_name}
-Version:        0.10.1
-Release:        2
+Version:        0.14.2
+Release:        1
 Summary:        Deal PySol FC Cards
 Group:          Development/Python
 License:        MIT
