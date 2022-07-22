@@ -42,6 +42,6 @@ rm -rf %{pypi_name}.egg-info
 
 %files
 %license LICENSE
-%doc README.rst doc/source/readme.rst
+%doc README*
 %{python_sitelib}/pysol_cards
-%{python_sitelib}/pysol_cards-%{version}-py?.?.egg-info
+%{python_sitelib}/pysol_cards-%{version}-py*.*.egg-info
