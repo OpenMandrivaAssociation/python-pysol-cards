@@ -2,8 +2,8 @@
 %global pypi_name pysol-cards
 
 Name:           python-%{pypi_name}
-Version:        0.10.1
-Release:        2
+Version:        0.14.2
+Release:        1
 Summary:        Deal PySol FC Cards
 Group:          Development/Python
 License:        MIT
@@ -42,6 +42,6 @@ rm -rf %{pypi_name}.egg-info
 
 %files
 %license LICENSE
-%doc README.rst doc/source/readme.rst
+%doc README*
 %{python_sitelib}/pysol_cards
-%{python_sitelib}/pysol_cards-%{version}-py?.?.egg-info
+%{python_sitelib}/pysol_cards-%{version}-py*.*.egg-info
