@@ -2,8 +2,8 @@
 %global pypi_name pysol-cards
 
 Name:           python-%{pypi_name}
-Version:        0.14.2
-Release:        4
+Version:        0.24.0
+Release:        1
 Summary:        Deal PySol FC Cards
 Group:          Development/Python
 License:        MIT
@@ -28,7 +28,7 @@ The pysol-cards python modules allow the python developer to generate the
 initial deals of some PySol FC games.
 
 %prep
-%autosetup -n pysol_cards-%{version}
+%autosetup -n pysol_cards-0.24.0
 # Remove bundled egg-info
 rm -rf %{pypi_name}.egg-info
 
