@@ -3,7 +3,7 @@
 
 Name:           python-%{pypi_name}
 Version:        0.24.0
-Release:        1
+Release:        2
 Summary:        Deal PySol FC Cards
 Group:          Development/Python
 License:        MIT
