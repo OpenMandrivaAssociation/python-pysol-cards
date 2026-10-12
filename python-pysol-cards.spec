@@ -11,16 +11,8 @@ URL:            https://fc-solve.shlomifish.org/
 Source0:        https://files.pythonhosted.org/packages/source/p/%{pypi_name}/pysol_cards-%{version}.tar.gz
 BuildArch:      noarch
 
-BuildRequires:  python3-devel
-BuildConflicts: python3dist(coverage) = 4.4
-BuildRequires:  python3dist(coverage) >= 4.0
-BuildRequires:  python3dist(pbr)
-BuildRequires:  python3dist(pbr) >= 2.0
-BuildRequires:  python3dist(python-subunit) >= 0.0.18
-BuildRequires:  python3dist(setuptools)
-BuildRequires:  python3dist(six)
-#BuildRequires:  python3dist(testtools) >= 1.4.0
-BuildRequires:  python3dist(sphinx)
+BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(setuptools)
 %{?python_provide:%python_provide python3-%{pypi_name}}
 
 %description
